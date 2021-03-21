@@ -1,6 +1,6 @@
 +++
 noatcards = true
-isdraft = true
+isdraft = false
 fragment = "content"
 weight = 110
 

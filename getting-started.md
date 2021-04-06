@@ -12,163 +12,155 @@ draft = false
 [sidebar]
     sticky = true 
 +++
-# NoatCards getting started
+# NoatCards Getting Started
 
-## Noat.Cards telegram bot
+## Noat.Cards Telegram Bot
 
-Accessing to the [noat.cards telegram bot](https://telegram.me/noat_cards_bot) here.
+The Noat.Cards Telegram bot can be accessed [here](https://telegram.me/noat_cards_bot).
 
-Trigger the bot and register by command `/start`
+Trigger the bot and register with the command `/start`.
 
 ## Start General Review Session
 
+In order to start a general review session you have to:
+
 - Navigate to `📘`(Learn)
 - Click on `General Review` to start review session
-- Click `Start/Continues` to review
+- Click `Start/Continue` to review
 
-## Start Review Session based on specific Repository
+## Start Review Session based on a specific Repository
 
-- Navigate `📘`(Learn)
-- Select Review Session based on specific repository
-- Click `Start/Continues` to start review session on the specified repository
+- Navigate to `📘`(Learn)
+- Select Review Session based on a specific repository
+- Click `Start/Continue` to start the review session on the specified repository
 
 ## Configure daily knowledge review time
 
-`noat.cards` will send you a remind message about daily knowledge review
+`noat.cards` will send you a reminder message for a daily knowledge review session. In order to configure this you have to:
 
-- Go to setting `⚙`
+- Go to settingS `⚙`
 - Sync up TimeZone by select `✍ Time Zone`
-- Using `⬆` and `⬇` to configure your TimeZone (base on GTM)
+- Use `⬆` and `⬇` to configure your TimeZone (base on GTM)
 - Configure your daily knowledge review time by selecting `✍ Review Time`
-- Using `⬆` and `⬇` to configure your daily review time (base on configured TimeZone)
+- Use `⬆` and `⬇` to configure your daily review time (base on configured TimeZone)
 
-## What is review heatmap ? 
+## What is the Review Heatmap ? 
 
-Review heatmap is simple tracking chart which records your daily review activity. 
+The Review heatmap is a simple tracking chart which records your daily review activity. 
 
-## What is repo shelf 🗃
+## What is the Repo Shelf 🗃
 
-repo shelf would be like your bookshelf. It is the place to store all of your knowledge repositories. You can add more knowledge repo to the repo shelf
+The Repo Shelf is similar to your bookshelf. It is the place to store all your knowledge repositories. You can add more knowledge repositories to your Repo Shelf.
 
-You can go there to browse about your knowledge repositories like you go to your bookshelf to get a book for reading
+You can go there to browse your knowledge repositories like you go to your bookshelf to get a book for reading.
 
-## Import knowledge repository to repo shelf by Git url
+## Importing a Knowledge Repository to your Repo Shelf by Git url
 
 - From `📘`(Learn) navigate to `🗃` (Repo Shelf)
 - Select `Import Repo 📥` (Import Repository with git url)
-- Input your repo git url. For example: `https://github.com/noatcards/og-aws`
+- Input the repo Git url. For example: `https://github.com/noatcards/og-aws`
 
 Note:
 
-- noat.cards only support `https` public repository git url
+- Noat.Cards only supports `https` public repository Git urls.
 
-## Browse existed public knowledge repo in platform and clone it
+## Browse existing Public Knowledge Repositories in the platform and clone it
 
 - From `📘`(Learn) navigate to `🗃` (Repo Shelf)
 - Select `Repo Browse` (Browse public repositories in platform)
-- Select `Repo` you are interested on
-- Explore the repo by Chat UI or open Web View by clicking `Open` button
+- Select the `Repo` you are interested on
+- Explore the repository by Chat UI or open Web View by clicking `Open` button
 - Click on `🧬 Clone` Button to clone the repo to your repo shelf
 
-
-## Delete a repo from repo shelf
+## Delete a Repository from your Repo Shelf
 
 - Navigate to repo shelf `🗃`
-- Select repo want to delete
-- Click on `🔥🗑️` to delete repo
+- Select the repository your want to delete
+- Click on `🔥🗑️` to delete the repo
 - Click `Okay` to confirm
 
 ## Sync up a repo with its remote Git
 
 - Navigate to `🗃`(repo shelf)
-- Select repo want to open
-- Click on `Sync Up 🔃` to sync up repo. The process will take sometime
+- Select the repository want to open
+- Click on `Sync Up 🔃` to sync up the repository. The process will take some time.
 - Return on success message like bellow:
 
-For repository already sync (latest version)
+For repository already in sync (latest version)
 
 ```
 Your repository linkedin-skill-assessments-quizzes already sync up
 ```
 
-Or for repository have new update
+Or for repository with updates
+
 ```
 Repository: linkedin-skill-assessments-quizzes updated
 From:  079f (old)
 To 023f (new)
 ```
-## Browse deck in specific repository
 
-With Repo Shelf, you can simple navigate to a specific deck in a repo which you interested on. and start a learning session.
+## Browse a Deck from a specific repository
+
+With Repo Shelf, you can simple navigate to a specific deck in a repo which you're interested in and browse the deck of cards.
 
 - Navigate to `🗃`(Repo Shelf)
 - Select the repo you want
 - Select the Deck you want
-- All cards content on the deck will show, click on a Card you are interested. Using button `>>` or `<<` to navigate between cards
+- All card contents on the deck will show, click on a Card you are interested in. Using button `>>` or `<<` to navigate between cards
 
-## Learn by decks
+## Learn a full Deck
 
-With Repo Shelf, you can simple navigate to a specific deck in a repo which you interested on. and start a learning
-session.
+With Repo Shelf, you can navigate to a specific deck in a repo which you're interested in and start a learning session.
 
 - Navigate to `🗃`(Repo Shelf)
 - Select the repo you want
 - Select the Deck you interested
-- Select `Learn It` to start study/review session. All cards belong the deck file will push to study/review session
+- Select `Learn It` to start a study/review session. All cards belongin to the deck file will be pushed to the study/review session.
 
-## Share a deck
+## Share a Deck
 
-Instead of share the whole repo with other people, you can select a single `Deck` to share
+Instead of sharing the whole repo with other people, you can select a single `Deck` to share.
 
 - Navigate to `🗃` Repo Shelf
 - Select the repo you want
 - Select the Deck you want to share
-- Select `Share` button
+- Select the `Share` button
 - Select who you want to share the deck with 
 
-## Share a card by browse card
+## Share a Card by Browsing
 
 - Navigate to `🗃` Repo Shelf
 - Select the repo you want
 - Select the Deck which content the card you want to share
 - Select the card you want to share
-- Select `Share` button
+- Select the `Share` button
 - Select who you want to share the card with
 
-## Share a card by search it (full text search)
+## Share a Card by Searching (full text search)
 
-`Noat.Cards` support full text search, then you can easy get the card you want by searching it
+`Noat.Cards` support full text search, so you can find the card you want by searching for it.
 
 - In the chat bar, input `@noat_cards_bot <your search string here`
 - Select the card from search result
 - Click `Share` button 
 - Select who you want to share the card with
 
-Another way to make card searching here
+Another way to search for a card:
 
 - From `📘`(Learn) navigate to `Explore`
 - The search feature is enabled by default, input your search string in chat bar
-- Select the card from search result
-- Click `Share` button
+- Select the card in the search results
+- Click the `Share` button
 - Select who you want to share the card with
-
-## Share Card
-
-By embedding knowledge to a single note/flash card. Then you can document your knowledge. Simple way to search the card, and easy to share the card with others
-
-- Search a card by search string (full text search)
-- Select the card from search result to preview
-- If it is the card want to share, click on `Share button`
-- Select who you want to share the card with
-
 
 ## What is Quiz Competition ?
 
 Quiz Competition`🏆` is a game which lets participants compete against each other to bring out a competitive spirit and create a fun experience!
 
-You can have several quiz questions and define correct answers to aggregate the total score and reveal a final winner at the end
+You can have several quiz questions and define correct answers to aggregate the total score and reveal a final winner at the end.
 
-## Create Quiz Competition 
+## Create a Quiz Competition 
 
 - Navigate to `🏆`Quiz Competition button
 - Select create new Quiz Competition
@@ -177,21 +169,20 @@ You can have several quiz questions and define correct answers to aggregate the 
 - Select `Preview` button to preview the Quiz Competition
 - Click `Publish` to publish the quiz competition.
 
-The Quiz Competition Dashboard is show up. At the time, you can edit some setting for the new quiz competition.
-or Share the quiz competition to your friend or group to start a quiz competition game.
+The Quiz Competition Dashboard shows up where you can edit some settings for the new quiz competition.
+Or share the quiz competition to your friend or group to start a quiz competition game.
 
-Using `filter` button to select deck or repo which are allowed to shown up
+Use the `filter` button to select the decks or repos which are allowed to show up.
 
-
-## Browse quiz competition 
+## Browse Quiz Competitions 
 
 - Navigate to `🏆`Quiz Competition button
-- UI will show all your quiz competition
-- Click button `Filter` to select what quiz competition allowed to show up
+- UI will show all your quiz competitions
+- Click button `Filter` to filter this list
 
-## Delete Quiz contest
+## Remove a Quiz Competition
 
 - Navigate to `🏆` Quiz Competition Browse
-- Select Quiz Competition want to delete
-- Select `❌ Delete`Delete button
-- Select Okay to confirm delete operation
+- Select the Quiz Competition want to delete
+- Select the `❌ Delete`Delete button
+- Select Okay to confirm the delete operation
